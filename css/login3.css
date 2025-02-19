@@ -1,0 +1,184 @@
+/* ========= INICIO Plano de Fundo ========== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 2145px;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+/* ========= FIM Plano de Fundo ========== */
+
+/* ========= INICIO LOGIN ========== */
+
+
+.conteudo-login {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+}
+
+.conteudo-formulario {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+
+.conteudo-login .conteudo-formulario #form-log #label-log,
+#input-log {
+    display: block;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    border-radius: 1px;
+}
+
+.conteudo-login .conteudo-formulario #input-log {
+    border-color: rgba(0, 0, 0, .09);
+    color: rgb(0, 0, 0);
+    width: 75%;
+    padding-left: 5%;
+}
+
+.conteudo-login .conteudo-formulario #input-log :hover {
+    border-color: rgb(0, 0, 0);
+}
+
+.conteudo-login .conteudo-formulario #botao-log {
+    background-color: rgb(71, 1, 129);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.conteudo-login .conteudo-formulario p {
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(195, 195, 195);
+    
+}
+
+.conteudo-login .conteudo-formulario a {
+    color: rgb(71, 1, 129);
+    text-decoration: none;
+}
+
+
+.logo {
+    position: absolute;
+    top: 25%; /* Ajuste conforme necessário para centralizar verticalmente */
+    left: 50%; /* Posiciona no meio horizontal */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    width: 100px;
+    height: 100px;
+}
+
+
+/* ========= FIM LOGIN ========== */
+
+
+/* ========= INICIO CADASTRO ========== */
+
+.conteudo-cadastro {
+    width: 450px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.conteudo-cadastro .conteudo-formulario-cadastro p {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(195, 195, 195);
+}
+
+.conteudo-cadastro .conteudo-formulario-cadastro form label,
+input {
+    display: block;
+    height: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    border-radius: 1px;
+}
+
+.conteudo-cadastro .conteudo-formulario-cadastro label {
+    color: rgb(71, 1, 129);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.conteudo-cadastro .conteudo-formulario-cadastro input {
+    border-color: rgba(0, 0, 0, .09);
+    color: rgb(0, 0, 0);
+    width: 55%;
+    padding-left: 5%;
+}
+
+.conteudo-cadastro .conteudo-formulario-cadastro #botao {
+    background-color: rgb(71, 1, 129);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 60%;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.conteudo-cadastro .conteudo-formulario-cadastro a {
+    color: rgb(71, 1, 129);
+    text-decoration: none;
+}
+
+.logoCadastro {
+    position: absolute;
+    top: 8%;
+    left: 47%;
+    width: 100px;
+    height: 100px;
+}
+
+/* ========= FIM CADASTRO ========== */
